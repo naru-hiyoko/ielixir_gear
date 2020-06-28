@@ -1,4 +1,4 @@
-instance_dep = {:antikythera_instance_example, [git: "git@github.com:naru-hiyoko/antikythera_instance_example.git"]}
+instance_dep = {:antikythera_instance_example, [git: "https://github.com/naru-hiyoko/antikythera_instance_example.git"]}
 
 try do
   deps_dir =
