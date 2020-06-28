@@ -20,6 +20,30 @@ cd ielixir_gear
 bash install.sh
 ```
 
+I added tiny elixir-mode to own codemirror and changed a dependency to it by editing `bowner.json`.
+
+```
+git clone https://github.com/jupyter/notebook
+cd notebook
+# edit bowner.json
+python3 intall -e .
+```
+
+```
+# bowner.json
+
+  "dependencies": {
+    "codemirror": "naru-hiyoko/codemirror#9b878284148bf4bfa999d95273605b3746231f46",
+
+```
+
+### Usage
+
+```
+cd /tmp
+jupyter notebook
+```
+
 
 
 
